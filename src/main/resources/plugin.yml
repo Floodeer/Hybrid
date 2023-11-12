@@ -1,0 +1,11 @@
+name: Hybrid
+version: 1.0.0
+main: com.floodeer.hybrid.Hybrid
+api-version: 1.20
+softdepend: [ HolographicDisplays ]
+authors: [ Floodeer ]
+commands:
+  hybrid:
+    description: Main command
+libraries:
+  - com.zaxxer:HikariCP:5.0.1
